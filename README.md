@@ -132,7 +132,7 @@ The data model was recreated by me using **Draw.io** based on the project requir
 
 ### Data Model
 
-![Data Model](docs/data_model.png)
+![Data Model](docs/Data_Integration.png)
 
 ---
 
