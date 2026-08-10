@@ -142,7 +142,7 @@ The overall data warehouse architecture was also recreated by me in **Draw.io** 
 
 ### Data Warehouse Architecture
 
-![Data Architecture](docs/data_architecture.png)
+![Data Architecture](docs/Data_Architecture.png)
 
 ---
 
