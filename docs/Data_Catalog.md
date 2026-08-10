@@ -33,7 +33,7 @@ The `dim_customers` table contains customer-related information and combines per
 | `marital_status`  | NVARCHAR(50) | Marital status recorded for the customer, such as `Married` or `Single`.                            |
 | `gender`          | NVARCHAR(50) | Gender information available for the customer, including values such as `Male`, `Female`, or `n/a`. |
 | `birthdate`       | DATE         | Date of birth of the customer, stored in date format.                                               |
-| `create_date`     | DATE         | Date on which the customer record was created in the source system.                                 |
+| `create_date`     | DATETIME     | Date and time on which the customer record was created in the source system.                        |
 
 ---
 
