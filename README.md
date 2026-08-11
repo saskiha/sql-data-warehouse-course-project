@@ -223,12 +223,15 @@ The project demonstrates how SQL can be used not only for data manipulation, but
 sql-data-warehouse-course-project/
 │
 ├── datasets/
-│   └── ...
+│   └── source_crm
+│   └── source_erp
 │
 ├── docs/
 │   ├── data_architecture.png
 │   ├── data_flow.png
 │   └── data_model.png
+│   └── data_integration.png
+│   └── data_catalog.md
 │
 ├── scripts/
 │   ├── bronze/
