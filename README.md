@@ -224,27 +224,37 @@ sql-data-warehouse-course-project/
 │
 ├── datasets/
 │   └── source_crm
+│   │   └── cust_info.csv
+│   │   └── prd_info.csv
+│   │   └── sales_details.csv
 │   └── source_erp
+│   │   └── cust_az12.csv
+│   │   └── loc_a101.csv
+│   │   └── px_cat_g1v2.csv
 │
 ├── docs/
 │   ├── data_architecture.png
 │   ├── data_flow.png
-│   └── data_model.png
+│   └── data_model_star-schema.png
 │   └── data_integration.png
 │   └── data_catalog.md
 │
 ├── scripts/
 │   ├── bronze/
-│   │   └── ...
+│   │   └── ddl_bronze.sql
+│   │   └── proc_load_bronze.sql
 │   │
 │   ├── silver/
-│   │   └── ...
+│   │   └── ddl_silver.sql
+│   │   └── proc_load_silver.sql
 │   │
 │   └── gold/
-│       └── ...
+│       └── ddl_gold.sql
+│   └── init_database.sql
 │
 ├── tests/
-│   └── ...
+│   └── quality_checks_silver.sql
+│   └── quality_checks_gold.sql
 │
 └── README.md
 ```
